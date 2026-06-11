@@ -21,16 +21,16 @@ neuromorphic systems ([Rodriguez-Garcia, Ghosh, Mei & Ramaswamy, 2025](https://a
 ## Tutorial — The role of neuromodulators in gain modulation
 
 **Notebook:** [`LIF_neuromodulation_tutorial.ipynb`](./LIF_neuromodulation_tutorial.ipynb)
-&nbsp;|&nbsp; **Static figure script:** [`LIF_tauThres_I.py`](./LIF_tauThres_I.py)
-&nbsp;|&nbsp; **Schematic:** [`receptors.svg`](./receptors.svg)
 
-This 20-minute tutorial discusses the biological and *theorised* computational roles of the
+This tutorial discusses the biological and *theorised* computational roles of the
 five major neuromodulators — **Dopamine (DA)**, **Noradrenaline (NA)**, **Acetylcholine
 (ACh)**, **Serotonin (5-HT)** and **Histamine (HA)** — and shows, with a minimal
 leaky integrate-and-fire (LIF) neuron, how a neuromodulator can reconfigure *how* a circuit
 computes rather than just passing a signal along.
 
 The conceptual anchor is the distinction between two receptor families:
+
+![Receptors](images/receptors.svg)
 
 - **Ionotropic (fast) receptors** open ion channels directly. We represent this as a change
   in the **input current** reaching an otherwise unchanged neuron — *what enters the neuron*.
@@ -53,8 +53,7 @@ parameters — chiefly by **reducing spike-frequency adaptation**.
 
 ### Setup
 
-Open the notebook in Jupyter (or Google Colab) and run the cells in order. Keep
-`receptors.svg` in the same folder as the notebook so the receptor schematic renders. The
+Open the notebook in Jupyter (or Google Colab) and run the cells in order. The
 only dependencies are `numpy`, `matplotlib` and `ipywidgets`:
 
 ```
