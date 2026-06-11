@@ -30,7 +30,7 @@ computes rather than just passing a signal along.
 
 The conceptual anchor is the distinction between two receptor families:
 
-![Receptors](images/receptors.svg)
+![Receptors](images/receptors.svg){width=50%}
 
 - **Ionotropic (fast) receptors** open ion channels directly. We represent this as a change
   in the **input current** reaching an otherwise unchanged neuron — *what enters the neuron*.
