@@ -30,7 +30,7 @@ computes rather than just passing a signal along.
 
 The conceptual anchor is the distinction between two receptor families:
 
-![Receptors](images/receptors.svg){width=50%}
+<img src="images/receptors.svg" width=50%>
 
 - **Ionotropic (fast) receptors** open ion channels directly. We represent this as a change
   in the **input current** reaching an otherwise unchanged neuron — *what enters the neuron*.
@@ -73,8 +73,8 @@ one mechanism at a time during the live session.
 | **Serotonin (5-HT)** | Mood, patience, behavioural inhibition | Average reward / time-horizon; aversive valence | Inhibition bias; reward time-discount | Slows or withholds action; sets baseline tone |
 | **Histamine (HA)** | Wakefulness, sleep–wake switching | Global arousal / state gating | Global excitability bias | Sets overall operating regime |
 
-The computational roles are *theories* — see Doya's metalearning view and the Yu–Dayan
-expected/unexpected-uncertainty view for two influential framings.
+The computational roles are *theories* — see Doya's [metalearning](https://www.sciencedirect.com/science/article/pii/S0893608002000448?via%3Dihub) and the Yu–Dayan
+[expected/unexpected-uncertainty](https://proceedings.neurips.cc/paper_files/paper/2002/file/758a06618c69880a6cee5314ee42d52f-Paper.pdf) views for two influential framings.
 
 ### Exercises
 
